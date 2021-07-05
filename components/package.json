@@ -1,0 +1,14 @@
+{
+    "name": "@workspaces_npm/components",
+    "version": "1.0.0",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "files": [
+      "dist"
+    ],
+    "scripts": {
+      "postinstall": "npm run build",
+      "build": "tsc"
+    }
+  }
